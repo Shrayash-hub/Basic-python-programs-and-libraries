@@ -23,3 +23,11 @@ print("Array with range of values:",arr_range)
 #Creating a random array of shape(2,3)
 arr_random = np.random.rand(2,3)
 print("Random array of shape (2,3):\n",arr_random)
+
+#creating an empty array
+arr_empty = np.empty((2,3))
+print("Empty array:\n",arr_empty)
+
+#using np.full
+arr_full = np.full((2,3),7)
+print("Array filled with 7:\n",arr_full)
